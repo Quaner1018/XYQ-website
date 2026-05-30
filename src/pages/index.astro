@@ -1,19 +1,67 @@
 ---
-const name = "XYQ";
 ---
 
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{name}的个人网站</title>
-  </head>
-
-  <body>
-    <main>
-      <h1>你好，我是{name}</h1>
-      <p>欢迎来到我的个人网站。</p>
-      <p>这里以后会用来展示我的介绍、作品、文章和联系方式。哇袄！踩踩背！</p>
-    </main>
-  </body>
-</html>
+<main class="page">
+	<section class="hero">
+	  <h1>你好，我是 XYQ</h1>
+	  <p>欢迎来到我的个人网站。我会在这里展示我的学习记录、数学笔记和项目。</p>
+	</section>
+  
+	<section class="section">
+	  <h2>关于我</h2>
+	  <p>这里写你的个人介绍。</p>
+	</section>
+  
+	<section class="section">
+	  <h2>研究与学习方向</h2>
+	  <ul>
+		<li>数学分析</li>
+		<li>线性代数</li>
+		<li>编程与网站开发</li>
+	  </ul>
+	</section>
+  
+	<section class="section">
+	  <h2>联系方式</h2>
+	  <p>GitHub: <a href="https://github.com/Quaner1018">Quaner1018</a></p>
+	</section>
+  </main>
+  
+  <style>
+	.page {
+	  max-width: 900px;
+	  margin: 0 auto;
+	  padding: 64px 24px;
+	  font-family: system-ui, sans-serif;
+	  line-height: 1.7;
+	}
+  
+	.hero {
+	  padding: 80px 0;
+	  text-align: center;
+	}
+  
+	.hero h1 {
+	  font-size: 48px;
+	  margin-bottom: 20px;
+	}
+  
+	.hero p {
+	  font-size: 20px;
+	  color: #555;
+	}
+  
+	.section {
+	  margin-top: 64px;
+	}
+  
+	.section h2 {
+	  font-size: 28px;
+	  border-bottom: 2px solid #eee;
+	  padding-bottom: 12px;
+	}
+  
+	a {
+	  color: #2563eb;
+	}
+  </style>
